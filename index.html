@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wala ako magawa</title>
+</head>
+<body>
+    <h1 id="text"></h1>
+</body>
+<script>
+
+    let response = prompt("Love mo ba ako? yes or no");
+    let outputText = "";
+
+    if (response == "yes") {
+        outputText = " iloveyou so muchh mwaa! <33";
+    }
+    else if (response == "no") {
+        outputText = "agoi sakit mo na beshy :<";
+    }
+    else {
+        outputText = "yes or no lang!";
+    }
+    document.getElementById("text").innerHTML = outputText;
+</script>
+</html>
